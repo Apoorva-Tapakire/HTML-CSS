@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+          display: flex;
+          justify-content: center;
+          background-color: DodgerBlue;
+        }
+        .flex-container > div {
+          background-color: #f1f1f1;
+          width: 100px;
+          margin: 10px;
+          text-align: center;
+          line-height: 75px;
+          font-size: 30px;
+        }
+
+        .flex-container1 {
+        display: flex;
+        justify-content: flex-start;
+        background-color: DodgerBlue;
+        }
+        .flex-container1 > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        }
+
+        .flex-container2 {
+        display: flex;
+        justify-content: flex-end;
+        background-color: DodgerBlue;
+        }
+        .flex-container2 > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        }
+
+        .flex-container3 {
+        display: flex;
+        justify-content: space-around;
+        background-color: DodgerBlue;
+        }
+        .flex-container3 > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        }
+
+        .flex-container4 {
+        display: flex;
+        justify-content: space-between;
+        background-color: DodgerBlue;
+        }
+
+        .flex-container4 > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        }
+        </style>
+</head>
+<body>
+    <h1>The justify-content Property</h1>
+
+    <!--    justify-content: center;   -->
+    <p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
+    <div class="flex-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>  
+    </div>
+
+    <!--    justify-content: flex-start;   -->
+    <p>The "justify-content: flex-start;" aligns the flex items at the beginning of the container (this is default):</p>
+    <div class="flex-container1">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>  
+    </div>
+
+    <!--    justify-content: flex-end;   -->
+    <p>The "justify-content: flex-end;" aligns the flex items at the end of the container:</p>
+    <div class="flex-container2">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>  
+    </div>
+
+    <!--    justify-content: space-around;   -->
+    <p>The "justify-content: space-around;" displays the flex items with space before, between, and after the lines:</p>
+    <div class="flex-container3">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>  
+    </div>
+
+    <!--    justify-content: space-between;   -->
+    <p>The "justify-content: space-between;" displays the flex items with space between the lines:</p>
+    <div class="flex-container4">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>  
+    </div>
+</body>
+</html>

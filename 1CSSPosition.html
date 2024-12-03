@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.static {
+            position: static;
+            border: 3px solid black;
+            font-size: 30px;
+        }
+        div.relative {
+            position: relative;
+            border: 3px solid black;
+            left: 30px;
+            top: 30px; 
+        }
+        div.fixed {
+            position: fixed;
+            border: 3px solid black;
+            width: 500px;
+            right: 10px;
+            
+        }
+        div.relative1 {
+            position: relative;
+            border: 3px solid black;
+            width: 400px;
+            height: 200px;
+        }
+        div.absolute {
+            position: absolute;
+            border: 3px solid black;
+            width: 200px;
+            height: 100px;
+            top: 50px;
+            right: 0;
+        }
+        div.sticky {
+            position: sticky;
+            border: 3px solid black;
+            top: 0;
+            padding: 5px;
+            background-color: #cae8ca;
+        }
+    </style>
+</head>
+<body>
+    <h2>position: static</h2>
+    <p>An element with position: static; is not positioned in any special way; 
+        it is always positioned according to the normal flow of the page:</p>
+    <div class="static">
+        This div element has postion:static
+    </div>
+
+
+    <h2>position: relative</h2>
+    <p>An element with position: relative; is positioned relative to its normal position:</p>
+    <div class="relative">
+        This div element has postion:relative
+    </div>
+
+
+    <h2>position: fixed</h2>
+    <p>An element with position: fixed; is positioned relative to the viewport, 
+        which means it always stays in the same place even if the page is scrolled:</p>
+    <div class="fixed">
+    This div element has position: fixed
+    </div>
+
+
+    <h2>position: absolute</h2>
+    <p>An element with position: absolute; is positioned relative to the nearest positioned 
+        ancestor (instead of positioned relative to the viewport, like fixed):</p>
+    <div class="relative1">This div element has position: relative
+    <div class="absolute">This div element has position: absolute</div>
+    </div>
+
+
+    <h2>position: sticky</h2>
+    <div class="sticky">I am sticky!</div>
+    <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+    <p>In this example, the sticky element sticks to the top of the page (top: 0), 
+        when you reach its scroll position.</p>
+    <p>Scroll back up to remove the stickyness.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, 
+        maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, 
+        id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur 
+        his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, 
+        maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, 
+        id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur
+        his ad. Eum no molestiae voluptatibus.</p><br>
+
+    <p>There is a great deal of talk and endeavour to protect nature, the animals, 
+        the birds, the whales and dolphins, to clean the polluted rivers, lakes, 
+        fields and so on. Nature is not put together by thought, as religion and belief are. </p><br>
+        <p>Nature is the tiger, that extraordinary animal with its energy, its great sense of power.
+        Nature is the solitary tree in the field, the meadows and the grove; it is that 
+        squirrel shyly hiding behind a bough. Nature is the ant, the bee and all the living 
+        things of the earth. Nature is the river, not a particular river, whether the Ganga, 
+        the Thames or the Mississippi. </p><br>
+
+        <p>Nature is those mountains, snow-clad, with dark blue 
+        valleys and range of hills meeting the sea. The universe is part of nature. One must
+        have a feeling for all this, not destroy it, not kill for one’s pleasure or one’s table.</p><br>
+        <p>We do kill cabbages, the vegetables we eat, but one must draw the line somewhere.
+         If you do not eat vegetables, how will you live? So one must intelligently discern.</p><br>
+        <p>There is a great deal of talk and endeavour to protect nature, the animals, 
+        the birds, the whales and dolphins, to clean the polluted rivers, lakes, 
+        fields and so on. Nature is not put together by thought, as religion and belief are.</p><br>
+
+        <p>Nature is the tiger, that extraordinary animal with its energy, its great sense of power.
+        Nature is the solitary tree in the field, the meadows and the grove; it is that 
+        squirrel shyly hiding behind a bough. Nature is the ant, the bee and all the living 
+        things of the earth. Nature is the river, not a particular river, whether the Ganga, 
+        the Thames or the Mississippi. Nature is those mountains, snow-clad, with dark blue 
+        valleys and range of hills meeting the sea. The universe is part of nature.</p> <br>
+        <p>One must have a feeling for all this, not destroy it, not kill for one’s pleasure or one’s table.
+        We do kill cabbages, the vegetables we eat, but one must draw the line somewhere.
+         If you do not eat vegetables, how will you live? So one must intelligently discern.</p><br>
+</body>
+</html>
