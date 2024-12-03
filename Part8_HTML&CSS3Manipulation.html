@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID & Class</title>
+    <style>
+        #div1 {
+            background-color: aqua;
+            height: 200px;
+            width: 300px;
+            font-size: larger;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: brown;
+        }
+        .div2 {
+            background-color: #ff5100;
+            height: 200px;
+            width: 300px;
+            color: blue;
+            text-align: right;
+        }
+
+        a {
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+
+        a {
+            font-size: 10pt;
+            font-family: cursive;
+            color: bisque;
+            text-decoration: none;
+        }
+        a:hover {
+            color: hsl(85, 100%, 50%);
+        }
+        a:visited {
+            color: blue;
+        }
+
+        nav {
+            font-size: 20px;
+            font-family: monospace;
+        }
+        nav ul {
+            font-size: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(21, 54, 163);
+        }
+        nav ul ul {
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #c42532;
+        }
+        nav ul ul ul {
+            font-size: 25px;
+            font-family: fantasy;
+            color: darkolivegreen;
+        }
+        nav ul li {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!--   Applying CSS3 styles to ID's & Classes    -->
+    <div id="div1">Hello world</div>
+    <div class="div2">Hello world</div>
+    <div class="div2">Hello world</div>
+
+    <!--   Modifying hyperlinks using CSS3    -->
+    <a href="http://www.google.com">Search Google</a><br>
+    <a href="http://www.bing.com">Search Bing</a><br>
+    <a href="http://www.yahoo.com">Search Yahoo!</a><br>
+    <br>
+
+    <!--   Setting the Hover & Visited states in hTml    -->
+    <a href="a">Home  </a>
+    <a href="http://www.google.com">About US  </a>
+    <a href="a">FAQ  </a>
+    <a href="a">News  </a>
+    <a href="a">Contact US  </a>
+
+    <!--   Applying style to child elements using css3    -->
+    <nav>
+        <ul>
+            <li><a href="a">Home</a></li>
+            <li><a href="a">About us</a></li>
+            <ul>
+                <li><a href="a">The company</a></li>
+                <li><a href="a">The people</a></li>
+                <ul>
+                    <li><a href="a">Employees</a></li>
+                    <li><a href="a">Management</a></li>
+                </ul>
+            </ul>
+        </ul>
+    </nav>
+</body>
+</html>

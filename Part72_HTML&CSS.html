@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            border: 1px solid black;
+        }
+        div.yellow {
+            width: 100px;
+            height: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: brown;
+            font-size: 12;
+        }
+        div > span {
+            font-family: cursive;
+            background-color: #c7f0c7;
+            font-size: 40;
+            font-weight: bold;
+            color: hsl(0, 79%, 32%);
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <div>Div 1
+            <div><span>Div 1a</span></div>
+        </div>
+        <div class="yellow">Div 2</div>
+        <div><span>Div 3</span></div>
+    </div>
+</body>
+</html>

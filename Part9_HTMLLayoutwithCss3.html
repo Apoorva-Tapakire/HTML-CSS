@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2 {
+            font-size: larger;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .rotate {
+            -webkit-transform: rotate(45deg);
+        }
+        #div1 {
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            background-color: brown;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            transform: rotate(45deg);
+            
+        }
+        #div2 {
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            background-color: brown;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            transform: rotate(90deg);
+            
+        }
+        #div3 {
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            background-color: brown;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            transform: rotate(60deg);
+        }
+        #div4 {
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            background-color: brown;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            transform: rotate(145deg);
+        }
+    </style>
+
+</head>
+<body>
+    <!--    using bdo   -->
+    <p><bdo dir="ltr">Hello world</bdo></p>
+    <p><bdo dir="rtl">Hello world</bdo></p>
+
+    <!--    using dir   -->
+    <p dir="ltr">Hello world</p>
+    <p dir="rtl">Hello world</p>
+
+    <!--    rotating text with css3   -->
+    <div class="rotate" style="width: 300px; height: 200px; text-align: center; background-color: aquamarine;">
+        <h2>Rotate</h2>
+    </div>
+
+    <!--    rotating div's with css3   -->
+    <div id="div1">This is div1</div><br>
+    <div id="div2">This is div2</div><br>
+    <div id="div3">This is div3</div><br>
+    <div id="div4">This is div4</div>
+</body>
+</html>

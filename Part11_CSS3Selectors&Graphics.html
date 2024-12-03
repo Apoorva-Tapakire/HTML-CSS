@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line {
+            color: chartreuse;
+            font-variant: small-caps;
+        }
+        p::first-letter {
+            color: rgb(255, 0, 64);
+            font-size: large;
+        }
+        .shadowdiv {
+            width: 100px;
+            height: 100px;
+            color: aqua;
+            background-color: chartreuse;
+            box-shadow: 10px 10px 5px #b8abab;
+        }
+        .shadowheading {
+            color: #f6984b;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: larger;
+            text-shadow: 3px 3px 10px #0d0d0c;
+        }
+        #div1 {
+            width: 300px;
+            height: 300px;
+            background-color: bisque;
+            background: linear-gradient(red, yellow,blue);
+        }
+        #div2 {
+            width: 300px;
+            height: 300px;
+            background-color: bisque;
+            background: radial-gradient(red, yellow,blue);
+        }
+
+        #transparent {
+            opacity: 0.5;
+            filter: blur();
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Adding CSS3 Pseudo selectors -->
+    <p>Nature conservation isn't just about saving trees or animals; it's about ensuring a 
+        sustainable and balanced ecosystem. Every element in nature, be it a roaring river or 
+        a buzzing bee, plays a crucial role in the intricate web of life. By conserving nature, 
+        we're ensuring that this delicate balance remains undisturbed, allowing life in all its 
+        diversity to flourish.</p>
+
+    <p>There is a great deal of talk and endeavour to protect nature, the animals, the birds, 
+        the whales and dolphins, to clean the polluted rivers, lakes, fields and so on. 
+        Nature is not put together by thought, as religion and belief are. </p>
+
+    <p>Nature is the tiger, that extraordinary animal with its energy, its great sense of power. 
+        Nature is the solitary tree in the field, the meadows and the grove; it is that squirrel 
+        shyly hiding behind a bough. </p>
+
+    <!-- Creating drop shadows using css3 --> 
+    <div class="shadowdiv">Shadowdiv</div>
+    <h1 class="shadowheading">Heading</h1>
+
+    <!-- Creating Linear gradients using css3 --> 
+    <div id="div1"></div>
+    <br>
+
+    <!-- Creating Radial gradients using css3 --> 
+    <div id="div2"></div>
+    <br>
+
+    <!-- Making items transparent using CSS3 --> 
+    <img id="transparent" src="assets/nature3.jpeg">
+
+    
+</body>
+</html>
